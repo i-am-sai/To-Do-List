@@ -23,15 +23,15 @@ const itemsSchema  = {
 const Item = mongoose.model("Item",itemsSchema);     // item Model 
 
 const item1 = new Item ({                            // item Documents 
-   name: "Task 1"                 // 1
+   name: "Welcome to your To-Do-List."                 // 1
 });
 
 const item2 = new Item ({                           // 2
-  name: "Task 2"    
+  name: "Hit the + button to add a new item."    
 });
 
 const item3 = new Item ({                           // 3
-  name: "Task 3"
+  name: "Hit checkbox to delete the item"
 });
 
 const defaultItems = [item1, item2, item3];   //array (Adding all the docs to array)
